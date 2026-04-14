@@ -1,5 +1,5 @@
-const calculateTotal = (price) => {
-    console.log(price ** 2);
+const squared = (price) => {
+    return price ** 2;
 }
 
-calculateTotal(10);
+console.log(squared (10));
